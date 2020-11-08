@@ -1,0 +1,25 @@
+{{ define "main" }}
+    {{ $paginator := .Paginate .Data.Pages }}
+    
+    <main class="posts">
+        <h1>{{ .Title }}</h1>
+
+        <div class="content">Reminder: There is no warranty on this database's information. Please see the license at the bottom of the page for details.</div><br><br><br>
+
+        {{ range $paginator.Pages.GroupBy "Title" }}
+            <div class="posts-group">
+                <ul class="posts-list">
+                    {{ range .Pages }}
+                        <li class="post-item">
+                            <a href="{{.Permalink}}">
+                                <span class="post-title">{{.Title}}</span>
+                                </span>
+                            </a>
+                        </li>
+                    {{ end }}
+                </ul>
+            </div>
+        {{ end }}
+    {{ partial "pagination.html" . }}
+    </main>
+{{ end }}
