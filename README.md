@@ -1,14 +1,14 @@
-# Hello Friend NG
+# Hello Friend FH
 
-![Hello Friend NG](https://dsh.re/2bd45)
+![Hello Friend FH](https://raw.githubusercontent.com/Firehawke/hugo-theme-hello-friend-fh/master/example.png)
 
-## General informations
+## General information
 
-This theme was highly inspired by the [hello-friend](https://github.com/panr/hugo-theme-hello-friend) and [hermit](https://github.com/Track3/hermit). A lot of kudos for their great work.
+This theme is a modification of the [Hello Friend NG](https://dsh.re/2bd45) theme, which was in turn highly inspired by the [hello-friend](https://github.com/panr/hugo-theme-hello-friend) and [hermit](https://github.com/Track3/hermit). A lot of kudos for their great work. It has a few adjustments
 
 ---
 ## Table of Contents
-
+- [Notes from Firehawke](#notes-from-firehawke)
 - [Features](#features)
 - [How to start](#how-to-start)
 - [How to configure](#how-to-configure)
@@ -25,6 +25,11 @@ This theme was highly inspired by the [hello-friend](https://github.com/panr/hug
 - [Licence](#licence)
 
 ---
+
+## Notes from Firehawke
+
+This fork was created to allow me to merge in a few outside contributions to my personal version of this. It adds PRs [#128](https://github.com/rhazdon/hugo-theme-hello-friend-ng/pull/128) and [#123](https://github.com/rhazdon/hugo-theme-hello-friend-ng/pull/123) in particular and will diverge more in the future.
+
 ## Features
 
 - Theming: **dark/light mode**, depending on your preferences (dark is default, but you can change it)
@@ -38,18 +43,18 @@ This theme was highly inspired by the [hello-friend](https://github.com/panr/hug
 
 ## How to start
 
-You can download the theme manually by going to [https://github.com/firehawke/hugo-theme-hello-friend-ng.git](https://github.com/firehawke/hugo-theme-hello-friend-ng.git) and pasting it to `themes/hello-friend-ng` in your root directory.
+You can download the theme manually by going to [https://github.com/firehawke/hugo-theme-hello-friend-fh.git](https://github.com/firehawke/hugo-theme-hello-friend-fh.git) and pasting it to `themes/hello-friend-fh` in your root directory.
 
 You can also clone it directly to your Hugo folder:
 
 ``` bash
-$ git clone https://github.com/firehawke/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
+$ git clone https://github.com/firehawke/hugo-theme-hello-friend-fh.git themes/hello-friend-ng
 ```
 
 If you don't want to make any radical changes, it's the best option, because you can get new updates when they are available. To do so, include it as a git submodule:
 
 ``` bash
-$ git submodule add https://github.com/firehawke/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
+$ git submodule add https://github.com/firehawke/hugo-theme-hello-friend-fh.git themes/hello-friend-ng
 ```
 
 ## How to configure
@@ -95,14 +100,14 @@ paginate     = 10
 
 [languages]
   [languages.en]
-    title = "Hello Friend NG"
+    title = "Hello Friend FH"
     subtitle = "A simple theme for Hugo"
     keywords = ""
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "hello friend ng"
+      logoText = "hello Friend FH"
       logoHomeLink = "/"
     # or
     #
@@ -162,7 +167,7 @@ If you need another one, just open an issue or create a pull request with your w
 ## Known issues
 
 There is a bug in Hugo that sometimes causes the main page not to render correctly. The reason is an empty taxonomy part.
-Related issue tickets: [!14](https://github.com/rhazdon/hugo-theme-hello-friend-ng/issues/14) [!59](https://github.com/rhazdon/hugo-theme-hello-friend-ng/issues/59).
+Related issue tickets: [!14](https://github.com/rhazdon/hugo-theme-hello-friend-fh/issues/14) [!59](https://github.com/rhazdon/hugo-theme-hello-friend-fh/issues/59).
 
 Either you comment it out completely or you write the following in
 
@@ -178,15 +183,15 @@ Just edit it. You don't need any node stuff. ;)
 
 ## Sponsoring
 
+If you'd like to support Firehawke, donations are certainly welcome at my <a href="www.patreon.com/firehawke">Patreon</a> page. Note that none of my posts are ever locked (I'd go so far as to add that if one ever DOES show up as locked, it was a mistake) and even $1/month is a considerable help.
+
+I'm going to leave the original author's comments here as well, since they also deserve a lot of credit:
+
 If you like my work and if you think this project is worth to support it, just <br />
 <a href="https://www.buymeacoffee.com/djordjeatlialp" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-green.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
 
 ## Licence
+Portions Copyright © 2020 Firehawke
+Portions Copyright © 2019-2020 Djordje Atlialp
 
-Copyright © 2019-2020 Djordje Atlialp
-
-The theme is released under the MIT License. Check the [original theme license](https://github.com/firehawke/hugo-theme-hello-friend-ng/blob/master/LICENSE.md) for additional licensing information.
-
-## Notes from Firehawke
-
-This fork is here to allow me to merge in a few outside contributions to my personal version of this. It adds PRs [#128](https://github.com/rhazdon/hugo-theme-hello-friend-ng/pull/128) and [#123](https://github.com/rhazdon/hugo-theme-hello-friend-ng/pull/123) in particular and may or may not diverge more in the future.
+The theme is released under the MIT License. Check the [original theme license](https://github.com/firehawke/hugo-theme-hello-friend-fh/blob/master/LICENSE.md) for additional licensing information.

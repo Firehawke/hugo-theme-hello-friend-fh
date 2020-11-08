@@ -1,7 +1,7 @@
 baseURL = "https://example.com"
 title   = "Hello Friend NG"
 languageCode = "en-us"
-theme = "hello-friend-ng"
+theme = "hello-friend-fh"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -96,7 +96,7 @@ disableHugoGeneratorInject = false
   # If you want, you can easily override the default footer with your own content. 
   #
   # footerLeft = "Powered by <a href=\"http://gohugo.io\">Hugo</a>"
-  # footerRight = "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+  # footerRight = "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Firehawke</a>, original by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
 
   # Colors for favicons
   #
@@ -145,12 +145,12 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = "Hello Friend FH Theme"
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
   [languages.fr]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = "Hello Friend FH Theme"
     weight    = 2
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
